@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Age Calculator</title>
+     <link rel="stylesheet" href="./style.css">
+ </head>
+ <body>
+     
+
+    <div class="wrapper">
+        <div class="inner">
+            <label for="name">Input your Name</label>
+            <div class="username">
+                <input id="userName" placeholder="Input your name" type="text">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Error.svg/1200px-Error.svg.png" class="erroeimg" alt="">    
+                <small class="validetion">Please input a valid name</small>
+            </div>
+            <div class="birthday">
+                <label for="date">Input your birth day</label>
+                <input id="date" type="date">
+            </div>
+            <button id="submit">Calculate</button>
+            <h3 id="result"></h3>
+        </div>
+    </div>
+
+
+
+    <script src="./function.js"></script>
+    <script src="./app.js"></script>
+ </body>
+ </html>
